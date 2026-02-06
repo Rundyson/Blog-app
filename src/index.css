@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+
+  background-color: rgba(51, 125, 51, 0.639);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #111;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  outline: none;
+  transition: border-color 0.3s;
+  resize: none;
+  height: 100px;
+}
+
+textarea:focus {
+  border-color: #008a09;
+  box-shadow: 0 0 0 2px rgba(0, 243, 81, 0.623);
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+button {
+  padding: 10px 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.btn-login {
+  background-color: rgba(255, 255, 255, 0.297);
+  padding: 5px 30px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.btn-login:hover {
+  background-color: rgba(7, 109, 7, 0.477);
+}
+.btn-register {
+  background-color: rgba(16, 173, 40, 0.491);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.btn-register:hover {
+  background-color: rgba(1, 16, 1, 0.477);
+}
+.btn-create {
+  padding: 5px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgba(16, 173, 40, 0.491);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.btn-create:hover {
+  background-color: rgba(1, 16, 1, 0.477);
+}
+input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.5rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #008a09;
+  box-shadow: 0 0 0 2px rgba(0, 243, 81, 0.623);
+}
+
+.m-blog {
+  color: white;
+  text-decoration: none;
+  font-size: 90px;
+  font-weight: bolder;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.LR-wrapper {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 10px;
+  align-items: center;
+  justify-self: center;
+  padding: 5px 40px;
+  background-color: rgba(3, 3, 3, 0.573);
+  border-radius: 20px;
+}
+.login-register p {
+  color: white;
+  font-size: 25px;
+}
+.login-register p:hover {
+  color: rgb(0, 0, 0);
+  transition: color 0.5s;
+}
+
+:link {
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+  justify-self: center;
+  background-color: rgba(40, 26, 26, 0.37);
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  padding: 10px 20px;
+  border: white 1px solid;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 30px;
+  justify-self: center;
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  padding: 10px 20px;
+  border: white 1px solid;
+}
+.r-email,
+.l-email {
+  margin-top: 10px;
+}
+
+.create-wrapper {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  border-radius: 20px;
+  gap: 40px;
+  background-color: rgba(0, 0, 0, 0.578);
+  border: white 2px solid;
+  padding: 20px 30px;
+}
+
+.create-blog {
+  display: flex;
+}
+.card-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 600px;
+  justify-self: center;
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.313);
+  color: white;
+  border-radius: 10px;
+}
+.title {
+  color: white;
+}
+.input-image {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.blog-home {
+  width: 600px;
+  margin-top: 30px;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+.blog-page {
+  width: 600px;
+  justify-self: center;
+}
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.313);
+  padding: 20px;
+  border-radius: 10px;
+}
+.comment-wrapper {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.447);
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.button-ED {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+.edit-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  justify-self: center;
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.313);
+  color: white;
+  border-radius: 10px;
+}
+.image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 20px;
+  background-color: rgba(199, 199, 199, 0.313);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.bc-id {
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+  background-color: rgba(239, 234, 234, 0.432);
+  display: flex;
+  padding: 8px;
+  width: 100px;
+  border-radius: 10px;
+}
+.bc-id:hover {
+transition: all 0.3s;
+  background-color: rgba(13, 172, 69, 0.432);
+}
+.buttonPN {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  align-items: center;
+  align-self: center;
+}
